@@ -1,0 +1,92 @@
+# Resumos de Outros Alunos
+
+Neste capítulo estarão contidas os resumos elaborados por colegas alunos do curso de psicologia que foram disponibililzados por eles. Os resumos receberam autorização para sua publicação e disponibilização aos demais colegas
+
+## ASSUNTOS 01
+
+|Data|Tópicos Abordados|
+|:--|:--|
+|dd/mm/aaaa|- Tópico 1<br>- Tópico 2<br>- Tópico 3|
+
+### Seção Numerada 1
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção não Numerada 1 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção não Numerada 2 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção Numerada 2
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção não Numerada 1 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+Para @DAVIDOFF2001, deve-se lembrar que....
+
+### Seção não Numerada 2 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+Para @DAVIDOFF2001, deve-se lembrar que....
+
+### Seção não Numerada 2 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+Para @DAVIDOFF2001, deve-se lembrar que....
+
+
+## ASSUNTO 02
+
+|Data|Tópicos Abordados|
+|:--|:--|
+|dd/mm/aaaa|- Tópico 1<br>- Tópico 2<br>- Tópico 3|
+
+### Seção Numerada 1
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção não Numerada 1 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção não Numerada 2 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção Numerada 2
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+### Seção não Numerada 1 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+Para @DAVIDOFF2001, deve-se lembrar que....
+
+### Seção não Numerada 2 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+Para @DAVIDOFF2001, deve-se lembrar que....
+
+### Seção não Numerada 2 {-}
+
+Para @BOCK2001, tornamo-nos pouco compreensíveis se não recorrermos a ....
+
+Para @DAVIDOFF2001, deve-se lembrar que....
+
+## Nas próximas aulas
+
+Veja, de acordo com o plano da disciplina, o que já foi estudado e o que ainda será ministrado nas próximas aulas:
+
+Tópico 1
+Tópico 2
+Tórico 3

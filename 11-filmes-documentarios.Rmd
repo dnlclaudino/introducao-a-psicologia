@@ -1,0 +1,15 @@
+# Filmes e Documentários
+
+Neste capítulo estarão relacionados os filmes e documentários que abordam temas estudados na disciplina.
+
+## Filmes
+
+|Data|Tópicos Abordados|
+|:--|:--|
+|dd/mm/aaaa|- Tópico 1<br>- Tópico 2<br>- Tópico 3|
+
+## Documentários
+
+|Data|Tópicos Abordados|
+|:--|:--|
+|dd/mm/aaaa|- Tópico 1<br>- Tópico 2<br>- Tópico 3|
