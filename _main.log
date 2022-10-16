@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.10.10)  16 OCT 2022 17:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.10.10)  16 OCT 2022 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,55 +889,50 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \bbl@ensure@brazilian {Capítulo} 1.
 File: figuras/LIVRO-GENERICO.jpeg Graphic file (type bmp)
 <figuras/LIVRO-GENERICO.jpeg>
-[5] [6]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1.1 on input line 281.
-
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
+[5] [6] [7] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--369
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
-[9] [10
+[11] [12
 
 ]
 \bbl@ensure@brazilian {Capítulo} 2.
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 2.1 on input line 391.
+(longtable)                in table 2.1 on input line 395.
 
-[11] [12]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2.3 on input line 498.
-
-[13]
+[13] [14]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 2.4 on input line 562.
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2.5 on input line 574.
-
-[14]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2.6 on input line 586.
+(longtable)                in table 2.3 on input line 502.
 
 [15]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 2.7 on input line 681.
+(longtable)                in table 2.4 on input line 566.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2.5 on input line 578.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2.6 on input line 590.
+
+[17]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2.7 on input line 685.
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
 
  []
 
@@ -948,15 +943,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.748         \begin{itemize}
+l.752         \begin{itemize}
                               
 Here is how much of TeX's memory you used:
- 20219 strings out of 410939
- 366557 string characters out of 2823325
+ 20220 strings out of 410939
+ 366563 string characters out of 2823325
  873127 words of memory out of 3000000
- 40735 multiletter control sequences out of 15000+600000
+ 40736 multiletter control sequences out of 15000+600000
  472881 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,7n,121p,1004b,520s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,7n,121p,1520b,490s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on _main.pdf (16 pages).
+Output written on _main.pdf (18 pages).
