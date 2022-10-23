@@ -57,7 +57,7 @@ knitr::include_graphics("figuras/KurtKoffka.jpg");
 	* Entre o **estímulo** e a **resposta** encontra-se o <amarelo>processo de percepção</amarelo>
 	* <amarelo>O QUE</amarelo> o indivíduo percebe e <amarelo>COMO</amarelo> o indivíduo percebe <amarelo>são importantes para entender o COMPORTAMENTO</amarelo>
 
-```{r Entendimento do Comportamento, echo=FALSE}
+```{r Entendimento do Comportamento, echo=FALSE, out.width="100%"}
 DiagrammeR::mermaid("
  graph LR
   OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
@@ -187,23 +187,29 @@ knitr::include_graphics("figuras/gestalt-exemplo-boa-forma.jpg");
 
 * Campo psicológico é uma tendência que **garante** (1) a busca pela melhor forma possível **em situações que não estão muito claras**.
 
-```mermaid
-flowchart LR
-A(<b>CAMPO<br>PSICOLÓGICO</b><br>Um Processo)-->B(Uma </b>TENDÊNCIA</b>)
-B--Garante-->C(Busca da MELHOR FORMA<br>possível)
-B--Que Ocorre<br>Quando nos<br>Deparamos-->D(Com </b>SITUAÇÕES NÃO<br>MUITO CLARAS</b>)
+```{r Campo Psicologico, echo=FALSE, out.width="100%"}
+ DiagrammeR::mermaid("
+  graph LR
+   A(<b>CAMPO<br>PSICOLÓGICO</b><br>Um Processo)-->B(Uma </b>TENDÊNCIA</b>)
+   B--Garante-->C(Busca da MELHOR FORMA<br>possível)
+   B--Que Ocorre<br>Quando nos<br>Deparamos-->D(Com </b>SITUAÇÕES NÃO<br>MUITO CLARAS</b>)
+ ");
 ```
 
 ### Princípios do Campo Psicológico
 
 * O campo psicológico é um processo que ocorre de acordo com **PRINCÍPIOS**:
 
-```mermaid
-flowchart LR
-A(<b>CAMPO PSICOLÓGICO</b>)--Possui-->B(PRINCÍPIOS)
-B-->C(Proximidade)-->F(Os ELEMENTOS mais próximos<br>tendem a ser AGRUPADOS)
-B-->D(Semelhança)-->G(Os ELEMENTOS SEMELHANTES<br>são AGRUPADOS)
-B-->E(Fechamento)-->H(Ocorre uma TENDÊNCIA<br>de COMPLETAR os<br>ELEMENTOS FALTANTES)
+```{r Principios do Campo Psicologico, echo=FALSE, out.width="100%"}
+ DiagrammeR::mermaid("graph LR
+   A(<b>CAMPO PSICOLÓGICO</b>)--Possui-->B(PRINCÍPIOS)
+   B-->C(Proximidade)
+   C-->F(Os ELEMENTOS mais próximos<br>tendem a ser AGRUPADOS)
+   B-->D(Semelhança)
+   D-->G(Os ELEMENTOS SEMELHANTES<br>são AGRUPADOS)
+   B-->E(Fechamento)
+   E-->H(Ocorre uma TENDÊNCIA<br>de COMPLETAR os<br>ELEMENTOS FALTANTES)
+   ");
 ```
 
 ### Insight 
@@ -243,16 +249,15 @@ knitr::include_graphics("figuras/KurtLewin.jpg");
 
 ### O Conceito de **Espaço Vital** e de **Campo Psicológico** de Lewin
 
-<center> <b>CAMPO VITAL</b>
+<center> <b>CAMPO VITAL</b> </center>
 
-```mermaid
-flowchart LR
-
-A(Pessoa)<-->B
-C(Ambiente)<-->B(((Relação com)))
+```{r Campo Vital, echo=FALSE, out.width="100%"}
+ DiagrammeR::mermaid("
+   graph LR
+   A(Pessoa)-->B((Relação com))
+   B-->C(Ambiente)
+");
 ```
-
-</center>
 
 * A **DEFINIÇÃO** de **ESPAÇO VITAL**: "A **totalidade dos fatos** que DETERMINAM O COMPORTAMENTO do indivíduo, <u>num certo momento</u>".
 * Outro conceito definido por Lewin foi o de **campo psicológico**: "É o espaço vital considerado dinamicamente" que deve ser considerado <sup>(1)</sup><u>tal como ele se apresenta para o indivíduo</u>, <sup>(2)</sup><u>em um determinado momento</u>.
@@ -286,14 +291,15 @@ O que é essa realidade fenomênica ?
 4. Os **COMPONENTES EMOCIONAIS** ligados **ao grupo** ao qual o indivíduo pertence;
 5. As **SITUAÇÕES PASSADAS** que estejam ligadas ao acontecimento
 
-```mermaid
-flowchart LR
-A(<b>MANEIRA PARTICULAR</b> COMO <br><u>UM INDIVÍDUO</u> <b>INTERPRETA</b> <br><u>DETERMINADA SITUAÇÃO</u>)-->F
+```{r Realidade Fenomenica de Kurt Lewin, echo=FALSE, out.width="100%"}
+ DiagrammeR::mermaid("graph LR
+ A(<b>MANEIRA PARTICULAR</b> COMO <br><u>UM INDIVÍDUO</u> <b>INTERPRETA</b> <br><u>DETERMINADA SITUAÇÃO</u>)-->F
 B(<b>CARACTERÍSTICAS DE<br>PERSONALIDADE</b><br>do indivíduo)-->F
 C(<b>COMPONENTES EMOCIONAIS</b><br>ligados à <br>situação DE VIDA e VIVIDA<br> própria do indivíduo)-->F
 D(<b>COMPONENTES EMOCIONAIS</b><br>ligados ao GRUPO<br>ao qual o indivíduo pertence)-->F
 E(<b>SITUAÇÕES PASSADAS</b><br>que estejam ligadas<br>ao acontecimento)-->F(<b>ESPAÇO VITAL</b><br>''Uma realidade fenomênica'',<br>segundo <b>KURT LEWIN</b>)
 F-->G(A <b>TOTALIDADE DOS FATOS</b> que<br>determinam o comportamento<br>do indivíduo <b>num determinado momento</b>)
+");
 ```
 
 ### EXEMPLO: Campo Psicológico e Espaço Vital
@@ -313,17 +319,17 @@ F-->G(A <b>TOTALIDADE DOS FATOS</b> que<br>determinam o comportamento<br>do indi
   * O ESPAÇO VITAL é a SITUAÇÃO MAIS IMEDIATA ( A que DETERMINOU O COMPORTAMENTO );
   * O entendimento do **ESPAÇO VITAL** <u>**depende diretamente**</u> do **CAMPO PSICOLÓGICO**.
 
-<center> <b>A compreensão do que Determina o Comportamento, segundo Kurt Lewin</b>
+<center> <b>A compreensão do que Determina o Comportamento, segundo Kurt Lewin</b> </center>
 
-```mermaid
-flowchart LR
-
-A(Compreensão do<br><b>CAMPO PSICOLÓGICO</b>)-->B(Compreensão do<br><b>ESPAÇO VITAL</b>)
-B-->C(Compreensão do que<br><b>DETERMINA O COMPORTAMENTO</b>)
-
+```{r Compreensao do Campo Psicologico, echo=FALSE, out.width="100%"}
+ DiagrammeR::mermaid("
+   graph LR
+   A(Compreensão do<br><b>CAMPO PSICOLÓGICO</b>)-->B(Compreensão do<br><b>ESPAÇO VITAL</b>)
+   B-->C(Compreensão do que<br><b>DETERMINA O COMPORTAMENTO</b>)
+");
 ```
 
-</center>
+
 
 ### A Compreensão do CONCEITO DE GRUPO
 
@@ -364,10 +370,9 @@ B-->C(Compreensão do que<br><b>DETERMINA O COMPORTAMENTO</b>)
 
 ## Livro: **Teorias da Personalidade** (FEIST; FEIST; ROBERTS, 2014)
 
-<p align="center"> 
-<img height="450" width="350" src="https://live.staticflickr.com/65535/52390638603_e3a1239d33_o_d.jpg"></img><br>
-<b>Figura</b> -Livro **Teorias da Personalidade** (FEIST; FEIST; ROBERTS, 2014)
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="80%", fig.align = "center", fig.cap="Livro Teorias da Personalidade"}
+knitr::include_graphics("figuras/Livro-Teorias-da-Personalidade.jpg")
+```
 
 ## Resumo do Capítulo 9 - Maslow: Teoria-Holístico-Dinâmica
 

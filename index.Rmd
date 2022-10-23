@@ -22,7 +22,7 @@ lang: "pt-BR"
 knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
 ```
 
- ```{r Modelo de Diagrama, echo=FALSE, out.width="40%"}
+```{r Modelo de Diagrama, echo=FALSE, out.width="40%"}
 # DiagrammeR::grViz("
 # digraph box_and_circles {
 # # Powered by https://rich-iannone.github.io/DiagrammeR/
@@ -36,9 +36,9 @@ knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
 # 
 # }
 # ")
- ```
+```
  
- ```{r Entendimento do Comportamento, echo=FALSE}
+```{r Entendimento do Comportamento, echo=FALSE, out.width="100%"}
 # DiagrammeR::mermaid("
 #  graph LR
 #   OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
