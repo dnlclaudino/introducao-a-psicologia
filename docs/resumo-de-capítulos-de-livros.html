@@ -52,6 +52,14 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/d3-3.3.8/d3.min.js"></script>
+<script src="libs/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+<script src="libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/chromatography-0.1/chromatography.js"></script>
+<script src="libs/DiagrammeR-binding-1.0.9/DiagrammeR.js"></script>
 
 
 
@@ -399,7 +407,7 @@ Figura 3.1: Livro Psicologias: Uma Introdução ao Estudo da Psicologia. 13.ed. 
 <h3><span class="header-section-number">3.1.3</span> A Psicologia da Forma: Introdução à Psicologia da Gestalt<a href="resumo-de-capítulos-de-livros.html#a-psicologia-da-forma-introdução-à-psicologia-da-gestalt" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li>Para Bock (2001, p. 59) a Psicologia da Gestalt é uma das tendências teóricas mais <strong>coerentes</strong> e <strong>coesas</strong> da história da psicologia.</li>
-<li>O termo Gestalt é de origem alemã e tem significado aproximado ao de <strong>forma</strong> ou <strong>configuração</strong>, <amarelo>porém<amarelo> <strong>NÃO É UTILIZADO</strong> por não corresponder exatamente as seu real significado em psicologia.</li>
+<li>O termo Gestalt é de origem alemã e tem significado aproximado ao de <strong>forma</strong> ou <strong>configuração</strong>, <amarelo>porém</amarelo> <strong>NÃO É UTILIZADO</strong> por não corresponder exatamente as seu real significado em psicologia.</li>
 <li>No final do século XIII, estudiosos procuravam compreender o <strong>fenômeno psicológico</strong> em seus <amarelo>aspectos naturais</amarelo>.
 <ul>
 <li>Principalmente no sentido da <strong>mensurabilidade</strong> ( A Psicofísica em voga ).</li>
@@ -457,34 +465,36 @@ Figura 3.2: Fundadores da Gestalt: Max Wertheimer | Wolfgang Kohler | Kurt Koffk
 </ul></li>
 <li>Para Gestaltistas há um questionamento desse <strong>princípio implícito da teoria behaviorista</strong>
 <ul>
-<li>Entre o <strong>estímulo</strong> e a <strong>resposta</strong> encontra-se o <amarelo>processo de percepção<amarelo></li>
-<li><amarelo>O QUE<amarelo> o indivíduo percebe e <amarelo>COMO<amarelo> o indivíduo percebe <amarelo>são importantes para entender o COMPORTAMENTO<amarelo></li>
+<li>Entre o <strong>estímulo</strong> e a <strong>resposta</strong> encontra-se o <amarelo>processo de percepção</amarelo></li>
+<li><amarelo>O QUE</amarelo> o indivíduo percebe e <amarelo>COMO</amarelo> o indivíduo percebe <amarelo>são importantes para entender o COMPORTAMENTO</amarelo></li>
 </ul></li>
 </ul>
 <pre class="mermaid"><code>flowchart LR
 OQ(O que)--A Pessoa Percebe--&gt;CC(Entendimento do Comportamento)
 CM(Como)--A Pessoa Percebe--&gt;CC</code></pre>
+<div id="htmlwidget-0609021ecdd0ce918e12" style="width:672px;height:480px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0609021ecdd0ce918e12">{"x":{"diagram":"\ngraph LR\n OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)\n CM(Como)--A Pessoa Percebe-->CC\n"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="posição-de-behavioristas-x-gestaltistas-diante-do-objeto-da-psicologia" class="section level3 hasAnchor" number="3.1.7">
 <h3><span class="header-section-number">3.1.7</span> Posição de Behavioristas x Gestaltistas diante do Objeto da Psicologia<a href="resumo-de-capítulos-de-livros.html#posição-de-behavioristas-x-gestaltistas-diante-do-objeto-da-psicologia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li>Ambos definem a psicologia como a <amarelo>ciência que estuda o COMPORTAMENTO<amarelo></li>
+<li>Ambos definem a psicologia como a <amarelo>ciência que estuda o COMPORTAMENTO</amarelo></li>
 <li>Para os Behavioristas:
 <ul>
 <li>É mais profunda a preocupação com a <strong>objetividade</strong>;</li>
 <li>O <strong>estudo com comportamento</strong> é feito através da <strong>relação estímulo-resposta</strong>;</li>
-<li>Despreza os <amarelo>conteúdos da consciência<amarelo> pela impossibilidade de controlar cientificamente <strong>essas variáveis</strong>;</li>
-<li>Procura isolar o <strong>estímulo</strong> que corresponderia à <strong>resposta</strong> desprezando <amarelo>conteúdos da consciência<amarelo> pela impossibilidade de controlar cientificamente <strong>essas variáveis</strong>;</li>
+<li>Despreza os <amarelo>conteúdos da consciência</amarelo> pela impossibilidade de controlar cientificamente <strong>essas variáveis</strong>;</li>
+<li>Procura isolar o <strong>estímulo</strong> que corresponderia à <strong>resposta</strong> desprezando <amarelo>conteúdos da consciência</amarelo> pela impossibilidade de controlar cientificamente <strong>essas variáveis</strong>;</li>
 </ul></li>
 <li>Para os gestaltistas:
 <ul>
 <li>Há uma <strong>crítica</strong> a <strong>abordagem behaviorista</strong> acima;</li>
 <li>Acreditam que existe um <strong>contexto mais amplo</strong> que é importante no <strong>estudo do comportamento</strong>
 <ul>
-<li>Esse <strong>contexto mais amplo</strong> são as <amarelo>CONDIÇÕES<amarelo> que <strong>afetam/alteram</strong> nossa capacidade de <amarelo>PERCEBER<amarelo> o <strong>estímulo</strong>;</li>
+<li>Esse <strong>contexto mais amplo</strong> são as <amarelo>CONDIÇÕES</amarelo> que <strong>afetam/alteram</strong> nossa capacidade de <amarelo>PERCEBER</amarelo> o <strong>estímulo</strong>;</li>
 </ul></li>
 <li>Entendem que estudar o comportamento isolado de um <strong>contexto mais amplo</strong> pode prejudicar o entendimento do comportamento pelo psicólogo;</li>
-<li>O comportamento é estudado em seus aspectos mais globais levando em consideração as <amarelo>CONDIÇÕES<amarelo> que <strong>afetam/alteram</strong> nossa capacidade de <amarelo>PERCEBER<amarelo> o <strong>estímulo</strong></li>
+<li>O comportamento é estudado em seus aspectos mais globais levando em consideração as <amarelo>CONDIÇÕES</amarelo> que <strong>afetam/alteram</strong> nossa capacidade de <amarelo>PERCEBER</amarelo> o <strong>estímulo</strong></li>
 </ul></li>
 </ul>
 </div>
@@ -549,7 +559,7 @@ Figura 3.3: Lei básica da percepção visual para os psicólogos da Gestalt
 <li>Em relação aos nossos comportamentos:
 <ul>
 <li>Em alguns casos, <strong>guardam estreita relação com os estímulos físicos</strong>;</li>
-<li>Em outros casos, <strong>são completamente diferentes do esperado</strong> porque “<amarelo>entendemos o ambiente<amarelo>” <strong>de maneira diferente da sua realidade</strong>.</li>
+<li>Em outros casos, <strong>são completamente diferentes do esperado</strong> porque “<amarelo>entendemos o ambiente</amarelo>” <strong>de maneira diferente da sua realidade</strong>.</li>
 <li>Exemplo:
 <ul>
 <li>Cumprimentar uma pessoas e depois descobrir que cumprimentamos uma pessoa desconhecida (<strong>Erro de Percepção</strong>);</li>
@@ -593,7 +603,7 @@ Figura 3.4: Observe a RETA: Elemento que desejamos compreender
 </ul></li>
 <li>Quanto menos clara estiver a boa forma
 <ul>
-<li>Mais difícil será distinguir o que é figura e o que é fundo (<amarelo>Figura Ambígua<amarelo>);</li>
+<li>Mais difícil será distinguir o que é figura e o que é fundo (<amarelo>Figura Ambígua</amarelo>);</li>
 </ul></li>
 </ul>
 </div>
@@ -955,7 +965,7 @@ B--&gt;C(Compreensão do que&lt;br&gt;&lt;b&gt;DETERMINA O COMPORTAMENTO&lt;/b&g
 </ul></li>
 </ul></li>
 <li>Vantagem: Obtemos uma amostra do que as pessoas fazem em seu <em>habitat</em>;</li>
-<li><amarelo>INCONVENIENTES<amarelo>:
+<li><amarelo>INCONVENIENTES</amarelo>:
 <ul>
 <li>A <strong>impossibilidade de controlar</strong> qualquer um dos <strong>fatores de interesse</strong>;</li>
 <li>Poucos casos cuja previsibilidade permita observar dificultando a formulação de conclusões;</li>
@@ -997,7 +1007,7 @@ B--&gt;C(Compreensão do que&lt;br&gt;&lt;b&gt;DETERMINA O COMPORTAMENTO&lt;/b&g
 <li>Sobre seus <strong>pensamentos</strong>;</li>
 <li>Sobre suas <strong>Atitudes</strong>;</li>
 </ul></li>
-<li>Os pesquisadores conseguem <amarelo>deduzir<amarelo> com notável precisão como um grande grupo responderia;
+<li>Os pesquisadores conseguem <amarelo>deduzir</amarelo> com notável precisão como um grande grupo responderia;
 <ul>
 <li>Exemplos:
 <ul>
@@ -1051,7 +1061,7 @@ B--&gt;C(Compreensão do que&lt;br&gt;&lt;b&gt;DETERMINA O COMPORTAMENTO&lt;/b&g
 </center>
 <p>De acordo com Feldman(2015, p. 31), os pesquisadores muitas vezes desejam determinar a relação entre duas variáveis.</p>
 <ul>
-<li><amarelo>Variáveis<amarelo> são <strong>comportamentos</strong>, <strong>eventos</strong> ou <strong>outras características</strong> que podem <u>mudar</u> ou <u>variar</u> de alguma maneira.
+<li><amarelo>Variáveis</amarelo> são <strong>comportamentos</strong>, <strong>eventos</strong> ou <strong>outras características</strong> que podem <u>mudar</u> ou <u>variar</u> de alguma maneira.
 <ul>
 <li>Exemplo: Uma pesquisa para verificar se a quantidade de estudo faz diferença nas notas em provas, as
 variáveis seriam <strong>tempo de estudo</strong> e <strong>escores</strong> em provas.</li>
@@ -1059,7 +1069,7 @@ variáveis seriam <strong>tempo de estudo</strong> e <strong>escores</strong> em
 </ul>
 <p>Na pesquisa correlacional, dois conjuntos de variáveis são examinados para determinar se eles estão associados ou “correlacionados”.</p>
 <ul>
-<li>A <strong>força</strong> e a <strong>direção</strong> da relação entre as duas variáveis são representadas por uma estatística matemática conhecida como <amarelo>correlação<amarelo> (ou, mais formalmente, como <amarelo>coeficiente de correlação<amarelo>), que pode variar de +1,0 a -1,0.</li>
+<li>A <strong>força</strong> e a <strong>direção</strong> da relação entre as duas variáveis são representadas por uma estatística matemática conhecida como <amarelo>correlação</amarelo> (ou, mais formalmente, como <amarelo>coeficiente de correlação</amarelo>), que pode variar de +1,0 a -1,0.</li>
 <li>Uma <strong>correlação positiva</strong> indica que, à medida que uma variável aumenta, podemos prever que o valor da outra variável também aumentará.
 <ul>
 <li>Por exemplo, se previrmos que, quanto mais tempo os alunos passam estudando para uma prova, maiores serão suas notas e que, quanto menos eles estudam, menor serão suas pontuações nas provas, estamos esperando encontrar uma correlação positiva. (Valores mais altos da variável “quantidade de tempo de estudo” estariam associados a valores mais altos da variável “pontuação na prova”, enquanto menores valores da “quantidade de tempo de estudo” estariam associados a valores mais baixos da variável “pontuação na prova”.)</li>
@@ -1091,9 +1101,9 @@ pessoa vai se sair em uma prova, mas isso não significa que estudar causa o des
 </ul></li>
 <li>Desvantagem da pesquisa correlacional:
 <ul>
-<li>A <strong>impossibilidade</strong> de a pesquisa correlacional <strong>demonstrar relações de causa e efeito</strong> é uma desvantagem crucial para seu uso. Contudo, <amarelo>existe uma técnica alternativa que estabelece causalidade: o experimento<strong>.</strong></li>
+<li>A <strong>impossibilidade</strong> de a pesquisa correlacional <strong>demonstrar relações de causa e efeito</strong> é uma desvantagem crucial para seu uso. Contudo, <amarelo>existe uma técnica alternativa que estabelece causalidade</amarelo>: <strong>o experimento</strong>.</li>
 </ul></li>
-<li><amarelo>EXPERIMENTO<amarelo>: Investigação da relação entre duas (ou mais) variáveis alterando–se deliberadamente uma situação e observando-se os efeitos dessa alteração em outros aspectos da situação.</li>
+<li><amarelo>EXPERIMENTO</amarelo>: Investigação da relação entre duas (ou mais) variáveis alterando–se deliberadamente uma situação e observando-se os efeitos dessa alteração em outros aspectos da situação.</li>
 </ul>
 </div>
 <div id="método-científico-método-experimental" class="section level3 hasAnchor" number="3.7.2">
@@ -1127,16 +1137,16 @@ afetos positivos, autoestima e apoio social, comparado ao grupo controle</li>
 </center>
 <ul>
 <li>Em um experimento formal, o pesquisador investiga a relação entre duas (ou mais) variáveis <strong>alterando deliberadamente uma variável</strong> em uma <strong>situação controlada</strong> e <strong>observando os efeitos daquela mudança</strong> em <strong>outros aspectos da situação</strong>.</li>
-<li>Em um experimento, portanto, as <amarelo>condições<amarelo> são <strong>criadas</strong> e <strong>controladas</strong> pelo pesquisador, que deliberadamente faz uma alteração nessas condições a fim de observar os efeitos daquela mudança.</li>
-<li>A alteração que o pesquisador deliberadamente faz em um experimento é denominada <amarelo>manipulação experimental<amarelo>. Manipulações experimentais são <amarelo>usadas para detectar relações entre diferentes variáveis<amarelo> (Staub, 2011 apud Feldman, 2015).</li>
-<li>A <amarelo>realização de um experimento<amarelo> envolve <strong>várias etapas</strong>, mas o processo geralmente se <strong>inicia</strong> com o <strong>desenvolvimento de uma ou mais hipóteses</strong> a serem testadas pelo experimento.
+<li>Em um experimento, portanto, as <amarelo>condições</amarelo> são <strong>criadas</strong> e <strong>controladas</strong> pelo pesquisador, que deliberadamente faz uma alteração nessas condições a fim de observar os efeitos daquela mudança.</li>
+<li>A alteração que o pesquisador deliberadamente faz em um experimento é denominada <amarelo>manipulação experimental</amarelo>. Manipulações experimentais são <amarelo>usadas para detectar relações entre diferentes variáveis</amarelo> (Staub, 2011 apud Feldman, 2015).</li>
+<li>A <amarelo>realização de um experimento</amarelo> envolve <strong>várias etapas</strong>, mas o processo geralmente se <strong>inicia</strong> com o <strong>desenvolvimento de uma ou mais hipóteses</strong> a serem testadas pelo experimento.
 <ul>
 <li>Por exemplo, <strong>Latané</strong> e <strong>Darley</strong>, ao testar sua <strong>teoria</strong> acerca da <strong>difusão da responsabilidade no comportamento de espectadores</strong>, elaboraram a seguinte hipótese: quanto <u>maior</u> for o número de pessoas que testemunham uma situação de emergência, <u>menor</u> será a probabilidade de que alguma delas ajude a vítima.</li>
-<li>Eles então <amarelo>criaram um experimento<amarelo> para testar essa hipótese.
+<li>Eles então <amarelo>criaram um experimento</amarelo> para testar essa hipótese.
 <ul>
-<li>O <strong>primeiro passo</strong> foi formular uma <amarelo>definição operacional da hipótese<amarelo>, conceitualizando-a de um modo que ela pudesse ser testada.</li>
-<li>Latané e Darley tiveram de levar em conta o <amarelo>princípio fundamental da pesquisa experimental<amarelo> mencionado anteriormente: os experimentadores <strong>devem manipular ao menos uma variável a fim de observar os efeitos da manipulação em outra variável</strong>, enquanto outros fatores na situação são mantidos constantes.</li>
-<li>Entretanto, <amarelo>a manipulação não pode ser vista isoladamente<amarelo>; para que uma relação de causa e efeito seja estabelecida, os efeitos da manipulação devem ser comparados com os efeitos de nenhuma manipulação ou de outro tipo de manipulação.</li>
+<li>O <strong>primeiro passo</strong> foi formular uma <amarelo>definição operacional da hipótese</amarelo>, conceitualizando-a de um modo que ela pudesse ser testada.</li>
+<li>Latané e Darley tiveram de levar em conta o <amarelo>princípio fundamental da pesquisa experimental</amarelo> mencionado anteriormente: os experimentadores <strong>devem manipular ao menos uma variável a fim de observar os efeitos da manipulação em outra variável</strong>, enquanto outros fatores na situação são mantidos constantes.</li>
+<li>Entretanto, <amarelo>a manipulação não pode ser vista isoladamente</amarelo>; para que uma relação de causa e efeito seja estabelecida, os efeitos da manipulação devem ser comparados com os efeitos de nenhuma manipulação ou de outro tipo de manipulação.</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1145,9 +1155,9 @@ afetos positivos, autoestima e apoio social, comparado ao grupo controle</li>
 <h3><span class="header-section-number">3.7.4</span> Grupos experimentais e grupos-controle<a href="resumo-de-capítulos-de-livros.html#grupos-experimentais-e-grupos-controle" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li>A pesquisa experimental exige, portanto, que as respostas de ao menos dois grupos sejam comparadas.</li>
-<li><amarelo>Um grupo<amarelo> receberá um tratamento especial – a manipulação implementada pelo experimentador – e <amarelo>outro grupo<amarelo> receberá um tratamento diferente ou nenhum tratamento.</li>
-<li>Qualquer grupo que recebe um tratamento é denominado <amarelo>grupo experimental<amarelo></li>
-<li>Um grupo que não recebe tratamento é denominado <amarelo>grupo-controle<amarelo></li>
+<li><amarelo>Um grupo</amarelo> receberá um tratamento especial – a manipulação implementada pelo experimentador – e <amarelo>outro grupo</amarelo> receberá um tratamento diferente ou nenhum tratamento.</li>
+<li>Qualquer grupo que recebe um tratamento é denominado </amarelo>grupo experimental</amarelo></li>
+<li>Um grupo que não recebe tratamento é denominado <amarelo>grupo-controle</amarelo></li>
 <li>Em alguns experimentos, existem vários grupos experimentais e de controle, cada um dos quais comparado com outro grupo.</li>
 <li><strong>Empregando</strong> <strong>grupos experimentais</strong> e de <strong>controle</strong> em um experimento, os pesquisadores <amarelo>são capazes de descartar<amarelo> a <strong>possibilidade de que alguma outra variável que não a manipulação experimental tenha produzido os resultados observados no experimento</strong>.</li>
 <li>Sem um grupo-controle, <amarelo>não poderíamos ter certeza<amarelo> de que alguma outra variável, como, por exemplo, a temperatura no momento da execução do experimento, a cor de cabelo do experimentador ou mesmo a mera passagem do tempo, não estava causando as mudanças observadas.
@@ -1160,14 +1170,14 @@ afetos positivos, autoestima e apoio social, comparado ao grupo controle</li>
 <li>O que o pesquisador evidentemente precisava era de um grupo-controle formado por pessoas resfriadas que não recebem o remédio e cuja saúde também é verificada 10 dias depois.</li>
 </ul></li>
 </ul></li>
-<li>Somente quando existe uma diferença significativa entre grupos experimental e de controle é que a eficácia do remédio pode ser avaliada. <amarelo>Ao usar grupos-controle<amarelo>, então, os pesquisadores podem isolar causas específicas para seus achados – e extrair inferências de causa e efeito.</li>
+<li>Somente quando existe uma diferença significativa entre grupos experimental e de controle é que a eficácia do remédio pode ser avaliada. <amarelo>Ao usar grupos-controle</amarelo>, então, os pesquisadores podem isolar causas específicas para seus achados – e extrair inferências de causa e efeito.</li>
 <li>Voltando ao experimento de Latané e Darley:
 <ul>
 <li>Vemos que os pesquisadores recisavam traduzir sua hipótese para algo que pudesse ser testado.</li>
 <li>Para fazer isso, decidiram criar uma falsa situação de emergência que pareceria requerer a ajuda de um espectador.</li>
 <li>Como manipulação experimental, optaram por <strong>variar o número de espectadores presentes</strong>.</li>
 <li>Eles poderiam ter usado apenas <strong>um grupo experimental</strong>, por exemplo, de duas pessoas presentes, e <strong>um grupo-controle</strong> com apenas uma pessoa presente para fins de comparação.</li>
-<li>Em vez disso, optaram por um procedimento mais complexo envolvendo a <strong>criação de grupos de três tamanhos</strong> – compostos por <strong>duas</strong>, <strong>três</strong> e <strong>seis</strong> pessoas – <amarelo>que poderiam ser comparados um com o outro<amarelo>.</li>
+<li>Em vez disso, optaram por um procedimento mais complexo envolvendo a <strong>criação de grupos de três tamanhos</strong> – compostos por <strong>duas</strong>, <strong>três</strong> e <strong>seis</strong> pessoas – <amarelo>que poderiam ser comparados um com o outro</amarelo>.</li>
 </ul></li>
 </ul>
 </div>
@@ -1175,7 +1185,7 @@ afetos positivos, autoestima e apoio social, comparado ao grupo controle</li>
 <h3><span class="header-section-number">3.7.5</span> Variáveis Independentes e Dependentes<a href="resumo-de-capítulos-de-livros.html#variáveis-independentes-e-dependentes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li>O projeto experimental de Latané e Darley agora incluía uma definição experimental do que é chamado de variável independente.</li>
-<li><amarelo>A variável independente<amarelo> é a condição que é manipulada por um experimentador.
+<li><amarelo>A variável independente</amarelo> é a condição que é manipulada por um experimentador.
 <ul>
 <li>Você pode pensar a variável independente como sendo independente das ações daqueles que participam de um experimento; ela é controlada pelo experimentador.</li>
 <li>No caso do experimento de Latané e Darley, a variável independente era o número de pessoas presentes, que foi manipulado pelos experimentadores.</li>
@@ -1189,8 +1199,8 @@ afetos positivos, autoestima e apoio social, comparado ao grupo controle</li>
 <li>Contudo, os investigadores também queriam uma análise mais precisa do comportamento de ajuda.</li>
 <li>Consequentemente, também mediram a quantidade de tempo que levava para um participante prestar ajuda. Latané e Darley agora tinham todos os componentes necessários de um experimento.</li>
 </ul></li>
-<li><amarelo>A variável independente<amarelo>, manipulada por eles, era o <strong>número de espectadores presentes</strong> em uma situação de emergência.</li>
-<li><amarelo>A variável dependente<amarelo> era verificar se <strong>os espectadores em cada um dos grupos prestavam ajuda</strong> e a <strong>quantidade de tempo</strong> que eles levavam para isso.</li>
+<li><amarelo>A variável independente</amarelo>, manipulada por eles, era o <strong>número de espectadores presentes</strong> em uma situação de emergência.</li>
+<li><amarelo>A variável dependente</amarelo> era verificar se <strong>os espectadores em cada um dos grupos prestavam ajuda</strong> e a <strong>quantidade de tempo</strong> que eles levavam para isso.</li>
 <li>Consequentemente, como todos os experimentos, esse teve tanto uma variável independente
 como uma variável dependente.</li>
 <li><strong>Todos os verdadeiros experimentos em psicologia</strong> <strong>encaixam-se nesse modelo simples</strong>.</li>

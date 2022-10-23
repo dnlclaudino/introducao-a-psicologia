@@ -57,11 +57,14 @@ knitr::include_graphics("figuras/KurtKoffka.jpg");
 	* Entre o **estímulo** e a **resposta** encontra-se o <amarelo>processo de percepção</amarelo>
 	* <amarelo>O QUE</amarelo> o indivíduo percebe e <amarelo>COMO</amarelo> o indivíduo percebe <amarelo>são importantes para entender o COMPORTAMENTO</amarelo>
 
-```mermaid
-flowchart LR
-OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
-CM(Como)--A Pessoa Percebe-->CC
-``` 
+```{r Entendimento do Comportamento, echo=FALSE}
+DiagrammeR::mermaid("
+ graph LR
+  OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
+  CM(Como)--A Pessoa Percebe-->CC
+ ");
+```
+ 
 
 ### Posição de Behavioristas x Gestaltistas diante do Objeto da Psicologia
 

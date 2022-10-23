@@ -37,6 +37,14 @@ knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
 # }
 # ")
  ```
+ 
+ ```{r Entendimento do Comportamento, echo=FALSE}
+# DiagrammeR::mermaid("
+#  graph LR
+#   OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
+#   CM(Como)--A Pessoa Percebe-->CC
+# ");
+```
 
 * Neste material, estão contidos:
   * Minhas notas de aula;
