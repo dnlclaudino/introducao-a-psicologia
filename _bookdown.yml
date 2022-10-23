@@ -1,4 +1,4 @@
-book_filename: "Meu-Bookdown-da-Disciplina-Introducao-a-Psicologia"
+book_filename: "Bookdown-Introducao-a-Psicologia"
 delete_merged_file: true
 output_dir: "docs"
 language:

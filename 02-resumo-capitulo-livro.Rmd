@@ -5,6 +5,7 @@ Neste capítulo estarão contidos meus resumos de capítulos de livros.
 ## Livro: **Psicologias Uma Introdução ao Estudo da Psicologia** (BOCH; FURTADO; TEIXEIRA, 2001)
 
 ```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="Livro Psicologias: Uma Introdução ao Estudo da Psicologia. 13.ed. São Paulo: Saraiva, 2001"}
+options(tinytex.verbose = TRUE);
 knitr::include_graphics("figuras/LIVRO-PSICOLOGIAS-BOCH.jpg");
 ```
 
@@ -57,7 +58,7 @@ knitr::include_graphics("figuras/KurtKoffka.jpg");
 	* Entre o **estímulo** e a **resposta** encontra-se o <amarelo>processo de percepção</amarelo>
 	* <amarelo>O QUE</amarelo> o indivíduo percebe e <amarelo>COMO</amarelo> o indivíduo percebe <amarelo>são importantes para entender o COMPORTAMENTO</amarelo>
 
-```{r Entendimento do Comportamento, echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="100%"}
 DiagrammeR::mermaid("
  graph LR
   OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
@@ -187,7 +188,7 @@ knitr::include_graphics("figuras/gestalt-exemplo-boa-forma.jpg");
 
 * Campo psicológico é uma tendência que **garante** (1) a busca pela melhor forma possível **em situações que não estão muito claras**.
 
-```{r Campo Psicologico, echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="100%"}
  DiagrammeR::mermaid("
   graph LR
    A(<b>CAMPO<br>PSICOLÓGICO</b><br>Um Processo)-->B(Uma </b>TENDÊNCIA</b>)
@@ -200,7 +201,7 @@ knitr::include_graphics("figuras/gestalt-exemplo-boa-forma.jpg");
 
 * O campo psicológico é um processo que ocorre de acordo com **PRINCÍPIOS**:
 
-```{r Principios do Campo Psicologico, echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="100%"}
  DiagrammeR::mermaid("graph LR
    A(<b>CAMPO PSICOLÓGICO</b>)--Possui-->B(PRINCÍPIOS)
    B-->C(Proximidade)
@@ -251,7 +252,7 @@ knitr::include_graphics("figuras/KurtLewin.jpg");
 
 <center> <b>CAMPO VITAL</b> </center>
 
-```{r Campo Vital, echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="100%"}
  DiagrammeR::mermaid("
    graph LR
    A(Pessoa)-->B((Relação com))
@@ -291,7 +292,7 @@ O que é essa realidade fenomênica ?
 4. Os **COMPONENTES EMOCIONAIS** ligados **ao grupo** ao qual o indivíduo pertence;
 5. As **SITUAÇÕES PASSADAS** que estejam ligadas ao acontecimento
 
-```{r Realidade Fenomenica de Kurt Lewin, echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="100%"}
  DiagrammeR::mermaid("graph LR
  A(<b>MANEIRA PARTICULAR</b> COMO <br><u>UM INDIVÍDUO</u> <b>INTERPRETA</b> <br><u>DETERMINADA SITUAÇÃO</u>)-->F
 B(<b>CARACTERÍSTICAS DE<br>PERSONALIDADE</b><br>do indivíduo)-->F
@@ -321,7 +322,7 @@ F-->G(A <b>TOTALIDADE DOS FATOS</b> que<br>determinam o comportamento<br>do indi
 
 <center> <b>A compreensão do que Determina o Comportamento, segundo Kurt Lewin</b> </center>
 
-```{r Compreensao do Campo Psicologico, echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="100%"}
  DiagrammeR::mermaid("
    graph LR
    A(Compreensão do<br><b>CAMPO PSICOLÓGICO</b>)-->B(Compreensão do<br><b>ESPAÇO VITAL</b>)

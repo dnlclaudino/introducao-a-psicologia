@@ -15,6 +15,7 @@ description: "Neste material, estão contidos os resumos de capítulos de livros
 link-citations: yes
 lang: "pt-BR"
 site: bookdown::bookdown_site
+always_allow_html: true
 ---
 
 # Apresentação da Disciplina
@@ -23,30 +24,6 @@ site: bookdown::bookdown_site
 
 ```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="-"}
 knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
-```
-
-```{r Modelo de Diagrama, echo=FALSE, out.width="40%"}
-# DiagrammeR::grViz("
-# digraph box_and_circles {
-# # Powered by https://rich-iannone.github.io/DiagrammeR/
-# 
-# # Definir os nodos
-# node [shape = oval, penwidth=2.0, fontname=Helvetica]
-# A; B; C; D
-# 
-# # Estabelecer relação entre os nodos
-# A->B
-# 
-# }
-# ")
-```
- 
-```{r Entendimento do Comportamento, echo=FALSE, out.width="100%"}
-# DiagrammeR::mermaid("
-#  graph LR
-#   OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
-#   CM(Como)--A Pessoa Percebe-->CC
-# ");
 ```
 
 * Neste material, estão contidos:

@@ -78,23 +78,23 @@ de semelhança entre si? Quais são suas diferenças?
 
 ### Perspectivas Históricas
 
-#### Aristóteles (328 a.C.)
+### Aristóteles (328 a.C.)
 
 * “Pai da Psicologia” séculos antes os primeiros filósofos lidavam com questões relacionadas o comportamento humano
 
-#### Gustav Fechner
+### Gustav Fechner
 
 |||
 |:-----:|:-----|
 |<img height="250" width="250" src="https://live.staticflickr.com/65535/52337023268_95c2e95cc3_o_d.png"></img>| <br> - Relação entre estímulo físico e sensação ( Lei de Weber-Fechner em 1860).<br> - Principal trabalho: Elementos da psicofísica (1860)<br> - Procedimentos experimentais e matemáticos.<br> - Questões:<br> Quanto deve brilhar uma estrela para ser vista? <br> Quão alto deve ser um ruído para ser ouvido? <br> Quão forte deve ser um toque para ser sentido?|
 
-#### William James
+### William James
 
 |||
 |:-----:|:-----|
 |<img height="350" width="350" src="https://live.staticflickr.com/65535/52336786456_34c7be9ceb_o_d.png"></img>|- Formação em fisiologista;<br>- Laboratório para demonstração dos fatores fisiológicos que influenciam a psicologia;<br>- Crítica a psicologia Wundtiana <br>- Consciência: Seu funcionamento e como a utilizar para adaptação ao meio<br> - Funcionalismo: Em vez de tratar a **estrutura da mente**, o **funcionalismo concentrou** se **no que a mente faz** e em **como o comportamento funciona**.|
 
-#### Wilhelm Wundt
+### Wilhelm Wundt
 
 |||
 |:-----:|:-----|
@@ -114,30 +114,19 @@ SHULTZ,  Duane  P.;  SHULTZ,  Sydney  Ellen  **História  da  psicologia moderna
 
 Segundo Skinner (1953) apud Davidoff (2001), são apontados seis princípios sobre o que significa **ciência**:
 
-* **Precisão**:
-	* Os psicólogos precisam ser precisos (definir **especificamente o que procuram faze**r).
-* **Objetividade**
-	* Tomar medidas que impeçam a influência do **ponto de vista particular** nos estudos.
-* **Empirismo**
-	* **Forma de conhecimento** através da **observação** **direta** e **indireta**.
-	* O empirismo consiste em **uma teoria epistemológica** que indica que **todo o **conhecimento** é um **fruto da experiência****, e por isso, uma consequência dos sentidos. A experiência estabelece o valor, a origem e os limites do conhecimento.
-* **Determinismo**
-	* Refere-se à crença de que todos os ****eventos** tem **causas** naturais** (fatores internos e externos).
-* **Parcimônia**
-	* Um padrão sobre as explicações dos fenômenos, em que a **preferência se volta para **explicações simples**** que se ajustem aos fatos observados. 
-	* Não ter pressa em manifestar conclusões que devem ser emitidas com precaução, cuidado e atenção. 
-	* A palavra também significa "aquilo que é essencial ou suficiente para suprir determinada necessidade"
-* **Ceticismo**
-	* Idealmente, os psicólogos são críticos em relação ao seu trabalho e ao de outros pesquisadores.
 
-#### Questões que os psicólogos levantam
 
-```mermaid 
-flowchart LR
-A(Questões empíricas) --> B(Observação)
-C(Definições operacionais) --> D(Definir os termos da pesquisa)
-E(Seleção de participantes) --> F(Utilização de amostras)
-G(Questões de pesquisa) --> H(Especificação)
+### Questões que os psicólogos levantam
+
+```{r Questoes, echo=FALSE, out.width="100%"}
+options(tinytex.verbose = TRUE)
+DiagrammeR::mermaid("
+ graph LR
+  A(Questões empíricas) --> B(Observação)
+  C(Definições operacionais) --> D(Definir os termos da pesquisa)
+  E(Seleção de participantes) --> F(Utilização de amostras)
+  G(Questões de pesquisa) --> H(Especificação)
+ ");
 ```
 
 ## Apresentação nº 02
@@ -209,7 +198,7 @@ G(Questões de pesquisa) --> H(Especificação)
 
 Segundo Feldman (2015), é destinada a investigar sistematicamente ****uma pessoa****, ****um grupo**** ou ****padrões de comportamento****.
 
-#### I ) PESQUISA DE ARQUIVO
+### I ) PESQUISA DE ARQUIVO
 
 <center> <b>Slide 2 - Aula 17.08.2022</b><center>
 
@@ -217,7 +206,7 @@ Não foi detalhado no slide. A professora fez explicações que estão contidas 
 
 >>>>>> ACRESCENTAR LINK PARA SECAO DO RESUMO DOS LIVROS
 
-#### II ) OBSERVAÇÃO DIRETA ( Observação Naturalista )
+### II ) OBSERVAÇÃO DIRETA ( Observação Naturalista )
 
 <center> <b>Slide 2 - Aula 17.08.2022</b><center>
 
@@ -231,7 +220,7 @@ Não foi detalhado no slide. A professora fez explicações que estão contidas 
 
 >>>>>> ACRESCENTAR LINK PARA SECAO DO RESUMO DOS LIVROS
 
-#### III )  PESQUISA DE LEVANTAMENTO
+### III )  PESQUISA DE LEVANTAMENTO
 
 <center> <b>Slide 2 - Aula 17.08.2022</b><center>
 
@@ -255,7 +244,7 @@ Não foi detalhado no slide. A professora fez explicações que estão contidas 
 |**Exemplo<br>Teste NEO PI-R**|**Exemplo<br>Teste de Torrence**|**Exemplo<br>Teste de Autoestima de Rosenberg**|
 |Modelo que seja capaz de identificar as dimensões básicas da personalidade, que possa ser compreendido e reconhecido nas diferentes culturas e nacionalidades|Tem por objetivo avaliar algumas dimensões relacionadas ao processo e a personalidade criativa, por meio da produção criativa expressa em forma de desenho|Desenvolvida pelo sociólogo Dr. Morris Rosenberg, a escala de Rosenberg é uma medida de autoestima amplamente utilizada em pesquisas de ciências sociais. Ele usa uma escala de 0 a 30, em que uma pontuação inferior a 15 pode indicar baixa autoestima problemática. A escala consiste em dez afirmações que você poderia aplicar a você e que deve avaliar o quanto concorda com cada uma. Os itens devem ser respondidos rapidamente, sem pensar demais, sua primeira inclinação é o que você deve anotar.
 
-#### IV ) ESTUDO DE CASO
+### IV ) ESTUDO DE CASO
 
 <center> <b>Slide 2 - Aula 17.08.2022</b><center>
 
@@ -267,7 +256,7 @@ Não foi detalhado no slide. A professora fez explicações que estão contidas 
 
 >>>>>> ACRESCENTAR LINK PARA SECAO DO RESUMO DOS LIVROS
 
-#### V ) PESQUISA CORRELACIONAL
+### V ) PESQUISA CORRELACIONAL
 
 <center> <b>Slide 2 - Aula 17.08.2022</b><center>
 

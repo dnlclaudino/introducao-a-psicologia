@@ -1,0 +1,23 @@
+```{r Modelo de Diagrama, echo=FALSE, out.width="40%"}
+DiagrammeR::grViz("
+digraph box_and_circles {
+# Powered by https://rich-iannone.github.io/DiagrammeR/
+
+# Definir os nodos
+node [shape = oval, penwidth=2.0, fontname=Helvetica]
+A; B; C; D
+
+# Estabelecer relação entre os nodos
+ A->B
+ 
+ }
+")
+```
+ 
+```{r Entendimento do Comportamento, echo=FALSE, out.width="100%"}
+ DiagrammeR::mermaid("
+ graph LR
+   OQ(O que)--A Pessoa Percebe-->CC(Entendimento do Comportamento)
+   CM(Como)--A Pessoa Percebe-->CC
+");
+```
