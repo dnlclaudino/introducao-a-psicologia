@@ -18,9 +18,25 @@ lang: "pt-BR"
 
 <center><h2>INTRODUÇÃO À PSICOLOGIA</h2></center>
 
-```{r echo=FALSE, out.width="50%", fig.align = "center", fig.cap="Capa"}
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="-"}
 knitr::include_graphics("figuras/LIVRO-GENERICO.jpeg")
 ```
+
+ ```{r Modelo de Diagrama, echo=FALSE, out.width="40%"}
+# DiagrammeR::grViz("
+# digraph box_and_circles {
+# # Powered by https://rich-iannone.github.io/DiagrammeR/
+# 
+# # Definir os nodos
+# node [shape = oval, penwidth=2.0, fontname=Helvetica]
+# A; B; C; D
+# 
+# # Estabelecer relação entre os nodos
+# A->B
+# 
+# }
+# ")
+ ```
 
 * Neste material, estão contidos:
   * Minhas notas de aula;

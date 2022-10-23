@@ -4,10 +4,9 @@ Neste capítulo estarão contidos meus resumos de capítulos de livros.
 
 ## Livro: **Psicologias Uma Introdução ao Estudo da Psicologia** (BOCH; FURTADO; TEIXEIRA, 2001)
 
-<p align="center"> 
-<img height="450" width="350" src="https://live.staticflickr.com/65535/52390638614_bcd4d68efb_o_d.jpg"></img><br>
-<b>Figura</b> - Livro Psicologias: Uma Introdução ao Estudo da Psicologia. 13.ed. São Paulo: Saraiva, 2001
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="Livro Psicologias: Uma Introdução ao Estudo da Psicologia. 13.ed. São Paulo: Saraiva, 2001"}
+knitr::include_graphics("figuras/LIVRO-PSICOLOGIAS-BOCH.jpg");
+```
 
 ### Resumo do Capítulo 3 - O Behaviorismo
 
@@ -18,7 +17,7 @@ Neste capítulo estarão contidos meus resumos de capítulos de livros.
 ### A Psicologia da Forma: Introdução à Psicologia da Gestalt
 
 * Para Bock (2001, p. 59) a Psicologia da Gestalt é uma das tendências teóricas mais **coerentes** e **coesas** da história da psicologia.
-* O termo Gestalt é de origem alemã e tem significado aproximado ao de **forma** ou **configuração**, ****porém**** **NÃO É UTILIZADO** por não corresponder exatamente as seu real significado em psicologia.
+* O termo Gestalt é de origem alemã e tem significado aproximado ao de **forma** ou **configuração**, <amarelo>porém</amarelo> **NÃO É UTILIZADO** por não corresponder exatamente as seu real significado em psicologia.
 * No final do século XIII, estudiosos procuravam compreender o **fenômeno psicológico** em seus <amarelo>aspectos naturais</amarelo>.
 	* Principalmente no sentido da **mensurabilidade** ( A Psicofísica em voga ).
 
@@ -32,29 +31,15 @@ Neste capítulo estarão contidos meus resumos de capítulos de livros.
 		* Dado Psicológico: Sensações
 		* Dados Físico: espaço-forma e tempo-forma
 
-``` mermaid
-gantt
-    title História da Psicologia da Gestalt
-    dateFormat  YYYY
-    axisFormat  
-    
-    section Predecessores
-    Ernst Mash : a1, 1890, 3650d
-    Christian von Ehrenfels : a2, 1890, 3650d
-    
-    section Fundadores
-    Max Wertheimer       : a3, after a2, 3650d
-    Wolfgang Kohler      : a4, after a2, 3650d
-    Kurt Koffka					 : a5, after a2, 3650d
-```
-
 ### Fundadores da Psiologia da Gestalt
 
 * Os fundadores da Psicologia da Gestalt construíram a **base de uma teoria psicológica**.
 
-||||
-|:-----:|:-----:|:-----:|
-|<img height="250" width="200" src="https://live.staticflickr.com/65535/52394757950_fc1a1fce5c_o_d.jpg"></img><br><b>Figura</b> - [Max Wertheimer :speaker:](https://translate.google.com/?sl=hu&tl=pt&text=Max%20Wertheimer&op=translate)<br> (1880-9343)| <img height="250" width="200" src="https://live.staticflickr.com/65535/52394613719_9db4184fcb_o_d.jpg"></img><br><b>Figura</b> - [Wolfgang Kohler :speaker:](https://translate.google.com/?sl=de&tl=pt&text=Wolfgang%20Kohler&op=translate)<br>(1887-1967)|<img height="250" width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Kurt_Koffka.jpg/220px-Kurt_Koffka.jpg"></img><br><b>Figura</b> - [Kurt Koffka :speaker:](https://translate.google.com/?sl=de&tl=pt&text=Kurt%20Koffka&op=translate)<br>(1886-1941)|
+```{r echo=FALSE, fig.show="hold", out.width="30%", fig.align = "center", fig.cap="Fundadores da Gestalt: Max Wertheimer | Wolfgang Kohler | Kurt Koffka"}
+knitr::include_graphics("figuras/MaxWertheimer.jpg");
+knitr::include_graphics("figuras/WolfgangKohler.jpg");
+knitr::include_graphics("figuras/KurtKoffka.jpg");
+```
 
 **Obs**: Clique em :speaker: para ouvir a pronúncia dos nomes dos cientístas acima.
 
@@ -69,8 +54,8 @@ gantt
 * Teoria Behaviorista
 	* **Princípio Implícito**: Há uma relação de **causa** e **efeito** entre o **estímulo** e a **resposta**
 * Para Gestaltistas há um questionamento desse **princípio implícito da teoria behaviorista**
-	* Entre o **estímulo** e a **resposta** encontra-se o ****processo de percepção****
-	* ****O QUE**** o indivíduo percebe e ****COMO**** o indivíduo percebe ****são importantes para entender o COMPORTAMENTO****
+	* Entre o **estímulo** e a **resposta** encontra-se o <amarelo>processo de percepção</amarelo>
+	* <amarelo>O QUE</amarelo> o indivíduo percebe e <amarelo>COMO</amarelo> o indivíduo percebe <amarelo>são importantes para entender o COMPORTAMENTO</amarelo>
 
 ```mermaid
 flowchart LR
@@ -80,18 +65,18 @@ CM(Como)--A Pessoa Percebe-->CC
 
 ### Posição de Behavioristas x Gestaltistas diante do Objeto da Psicologia
 
-* Ambos definem a psicologia como a ****ciência que estuda o COMPORTAMENTO****
+* Ambos definem a psicologia como a <amarelo>ciência que estuda o COMPORTAMENTO</amarelo>
 * Para os Behavioristas:
 	* É mais profunda a preocupação com a **objetividade**;
 	* O **estudo com comportamento** é feito através da **relação estímulo-resposta**;
-	* Despreza os ****conteúdos da consciência**** pela impossibilidade de controlar cientificamente **essas variáveis**;
-	* Procura isolar o **estímulo** que corresponderia à **resposta** desprezando  ****conteúdos da consciência**** pela impossibilidade de controlar cientificamente **essas variáveis**;
+	* Despreza os <amarelo>conteúdos da consciência</amarelo> pela impossibilidade de controlar cientificamente **essas variáveis**;
+	* Procura isolar o **estímulo** que corresponderia à **resposta** desprezando  <amarelo>conteúdos da consciência</amarelo> pela impossibilidade de controlar cientificamente **essas variáveis**;
 * Para os gestaltistas:
 	* Há uma **crítica** a **abordagem behaviorista** acima;
 	* Acreditam que existe um **contexto mais amplo**  que é importante no **estudo do comportamento**
-		* Esse **contexto mais amplo** são as ****CONDIÇÕES**** que **afetam/alteram** nossa capacidade de ****PERCEBER**** o **estímulo**;
+		* Esse **contexto mais amplo** são as <amarelo>CONDIÇÕES</amarelo> que **afetam/alteram** nossa capacidade de <amarelo>PERCEBER</amarelo> o **estímulo**;
 	* Entendem que estudar o comportamento isolado de um **contexto mais amplo** pode prejudicar o entendimento do comportamento pelo psicólogo;
-	* O comportamento é estudado em seus aspectos mais globais levando em consideração  as ****CONDIÇÕES**** que **afetam/alteram** nossa capacidade de ****PERCEBER**** o **estímulo**
+	* O comportamento é estudado em seus aspectos mais globais levando em consideração  as <amarelo>CONDIÇÕES</amarelo> que **afetam/alteram** nossa capacidade de <amarelo>PERCEBER</amarelo> o **estímulo**
 
 ### O que Garante o Entendimento do que Eu Percebo ?
 
@@ -110,10 +95,11 @@ CM(Como)--A Pessoa Percebe-->CC
 	* **regularidade** dos pontos que compõem uma figura;
 * **Rudolf Arnheim** afirma que o **sentido normal da visão** apreende um **padrão global**;
 
-<p align="center"> 
-<img height="500" width="450" src="https://live.staticflickr.com/65535/52390995058_cda1bc0ae8_o_d.jpg"></img><br>
-<b>Figura</b> - Lei básica da percepção visual para os psicólogos da Gestalt<br>
-</p>
+gestalt-Lei-basica-da-percepcao-visual.jpg
+
+```{r echo=FALSE, fig.show="hold", out.width="60%", fig.align = "center", fig.cap="Lei básica da percepção visual para os psicólogos da Gestalt"}
+knitr::include_graphics("figuras/gestalt-Lei-basica-da-percepcao-visual.jpg");
+```
 
 * Observações a respeito da Figura:
 	* **Figura 1**:
@@ -130,7 +116,7 @@ CM(Como)--A Pessoa Percebe-->CC
 * A Psicologia da Gestalt encontra as **condições** para a **compreensão do comportamento humano** nos **fenômenos da percepção**.
 * Em relação aos nossos comportamentos:
 	* Em alguns casos, **guardam estreita relação com os estímulos físicos**;
-	* Em outros casos, **são completamente diferentes do esperado** porque "****entendemos o ambiente****" **de maneira diferente da sua realidade**.
+	* Em outros casos, **são completamente diferentes do esperado** porque "<amarelo>entendemos o ambiente</amarelo>" **de maneira diferente da sua realidade**.
 	* Exemplo:
 		* Cumprimentar uma pessoas e depois descobrir que cumprimentamos uma pessoa desconhecida (**Erro de Percepção**);
 * Não há **boa forma** quando **nos elementos percebidos** não há:
@@ -142,10 +128,9 @@ CM(Como)--A Pessoa Percebe-->CC
 	* COMO DEVE SER APRESENTADO
 		* Deve ser apresentado em **aspectos básicos** que **permitam a sua decodificação** (**percepção da boa forma**)
 
-<p align="center"> 
-<img height="500" width="450" src="https://live.staticflickr.com/65535/52389824217_279b4929a6_o_d.jpg"></img><br>
-<b>Figura</b> - Observe a RETA: Elemento que desejamos compreender<br>
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="70%", fig.align = "center", fig.cap="Observe a RETA: Elemento que desejamos compreender"}
+knitr::include_graphics("figuras/gestalt-exemplo-boa-forma.jpg");
+```
 
 * (...)
   * COMO DEVEM SER DISTRIBUÍDOS OS ELEMENTOS QUE O COMPÕEM
@@ -158,7 +143,7 @@ CM(Como)--A Pessoa Percebe-->CC
 * Quanto mais clara (simples, estável, simétrica e equilibrada) estiver a **boa-forma**
 	* Mais clara será a **separação** entre **figura** e **fundo**;
 * Quanto menos clara estiver a boa forma
-	* Mais difícil será distinguir o que é figura e o que é fundo (****Figura Ambígua****);
+	* Mais difícil será distinguir o que é figura e o que é fundo (<amarelo>Figura Ambígua</amarelo>);
 
 ### Meio Geográfico e Meio Comportamental
 
@@ -240,10 +225,9 @@ B-->E(Fechamento)-->H(Ocorre uma TENDÊNCIA<br>de COMPLETAR os<br>ELEMENTOS FALT
 
 ### Teoria de Campo de **Kurt Lewin**
 
-<p align="center"> 
-<img height="250" width="200" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Kurt_Lewin_Photo.jpg/220px-Kurt_Lewin_Photo.jpg"></img><br>
-<b>Figura</b> - Kurt Lewin (1890-1947) <sup><a href="#KURT-LEWIN">*</a></sup>.
-</p>
+```{r echo=FALSE, fig.show="hold", out.width="40%", fig.align = "center", fig.cap="Kurt Lewin (1890-1947)"}
+knitr::include_graphics("figuras/KurtLewin.jpg");
+```
 
 ### Kurt Lewin (1890-1947)
   * Foi um psicólogo germano-estadunidense pioneiro da Psicologia Aplicada, Social e Organizacional nos Estados Unidos<sup><a href="#KURT-LEWIN">*</a></sup>.
@@ -421,7 +405,7 @@ B-->C(Compreensão do que<br><b>DETERMINA O COMPORTAMENTO</b>)
 		* Exemplo:
 			* O pesquisador observa e registra o **tipo de ajuda prestada** em uma área urbana com alto índice de criminalidade.
 	* Vantagem: Obtemos uma amostra do que as pessoas fazem em seu *habitat*;
-	* ****INCONVENIENTES****:
+	* <amarelo>INCONVENIENTES</amarelo>:
 		* A **impossibilidade de controlar** qualquer um dos **fatores de interesse**;
 		* Poucos casos cuja previsibilidade permita observar dificultando a formulação de conclusões;
 		* É preciso esperar que as condições apropriadas (**fatores de interesse**) ocorram;
@@ -441,7 +425,7 @@ B-->C(Compreensão do que<br><b>DETERMINA O COMPORTAMENTO</b>)
 	* Sobre seu **comportamento**;
 	* Sobre seus **pensamentos**;
 	* Sobre suas **Atitudes**;
-* Os pesquisadores conseguem ****deduzir**** com notável precisão como um grande grupo responderia;
+* Os pesquisadores conseguem <amarelo>deduzir</amarelo> com notável precisão como um grande grupo responderia;
 	* Exemplos:
 		* Pesquisadores que realizam **investigação sobre comportamento de ajuda**
 			* Podem realizar uma pesquisa pedindo às pessoas que completem um **questionário** no qual elas indicam **sua relutância em prestar auxílio a alguém**;
@@ -476,13 +460,13 @@ B-->C(Compreensão do que<br><b>DETERMINA O COMPORTAMENTO</b>)
 
 De acordo com Feldman(2015, p. 31), os pesquisadores muitas vezes desejam determinar a relação entre duas variáveis.
 
-* ****Variáveis**** são **comportamentos**, **eventos** ou **outras características** que podem <u>mudar</u> ou <u>variar</u> de alguma maneira. 
+* <amarelo>Variáveis</amarelo> são **comportamentos**, **eventos** ou **outras características** que podem <u>mudar</u> ou <u>variar</u> de alguma maneira. 
 	* Exemplo: Uma pesquisa para verificar se a quantidade de estudo faz diferença nas notas em provas, as
 variáveis seriam **tempo de estudo** e **escores** em provas.
 
 Na pesquisa correlacional, dois conjuntos de variáveis são examinados para determinar se eles estão associados ou “correlacionados”. 
 
-* A **força** e a **direção** da relação entre as duas variáveis são representadas por uma estatística matemática conhecida como ****correlação**** (ou, mais formalmente, como ****coeficiente de correlação****), que pode variar de +1,0 a -1,0.
+* A **força** e a **direção** da relação entre as duas variáveis são representadas por uma estatística matemática conhecida como <amarelo>correlação</amarelo> (ou, mais formalmente, como <amarelo>coeficiente de correlação</amarelo>), que pode variar de +1,0 a -1,0.
 * Uma **correlação positiva** indica que, à medida que uma variável aumenta, podemos prever que o valor da outra variável também aumentará.
 	*  Por exemplo, se previrmos que, quanto mais tempo os alunos passam estudando para uma prova, maiores serão suas notas e que, quanto menos eles estudam, menor serão suas pontuações nas provas, estamos esperando encontrar uma correlação positiva. (Valores mais altos da variável “quantidade de tempo de estudo” estariam associados a valores mais altos da variável “pontuação na prova”, enquanto menores valores da “quantidade de tempo de estudo” estariam associados a valores mais baixos da variável “pontuação na prova”.)
 	* A correlação, então, seria indicada por um número positivo e, quanto mais forte for a associação entre estudar e pontuação nas provas, mais próximo de 1,0 será o número.
@@ -500,9 +484,9 @@ pessoa vai se sair em uma prova, mas isso não significa que estudar causa o des
 			* Crianças que assistem a muitos programas de televisão com alto nível de agressão são propensas a demonstrar um grau relativamente alto de comportamento agressivo e que aquelas que assistem menos a programas de televisão que retratam agressão são inclinadas a exibir um grau relativamente baixo desse comportamento (ver Fig. 2). Contudo, **não podemos dizer que a agressão é causada por ver televisão**, pois **muitas outras explicações são possíveis**. Pessoas que já são altamente agressivas poderiam escolher ver programas com um alto conteúdo agressivo porque elas são agressivas
 
 * Desvantagem da pesquisa correlacional:
-	* A **impossibilidade** de a pesquisa correlacional **demonstrar relações de causa e efeito** é uma desvantagem crucial para seu uso. Contudo, ****existe uma técnica alternativa que estabelece causalidade: o experimento**.**
+	* A **impossibilidade** de a pesquisa correlacional **demonstrar relações de causa e efeito** é uma desvantagem crucial para seu uso. Contudo, <amarelo>existe uma técnica alternativa que estabelece causalidade</amarelo>: **o experimento**.
 
-* ****EXPERIMENTO****: Investigação da relação entre duas (ou mais) variáveis alterando--se deliberadamente uma situação e observando-se os efeitos dessa alteração em outros aspectos da situação.
+* <amarelo>EXPERIMENTO</amarelo>: Investigação da relação entre duas (ou mais) variáveis alterando--se deliberadamente uma situação e observando-se os efeitos dessa alteração em outros aspectos da situação.
 
 ### Método Científico: Método Experimental
 
@@ -525,52 +509,52 @@ afetos positivos, autoestima e apoio social, comparado ao grupo controle
 <center><b>Capítulo 1 - Módulo 3 - Livro Introdução à Psicologia<sup>1<sup> </b></center>
 
 * Em um experimento formal, o pesquisador investiga a relação entre duas (ou mais) variáveis **alterando deliberadamente uma variável** em uma **situação controlada** e **observando os efeitos daquela mudança** em **outros aspectos da situação**. 
-* Em um experimento, portanto, as ****condições**** são **criadas** e **controladas** pelo pesquisador, que deliberadamente faz uma alteração nessas condições a fim de observar os efeitos daquela mudança.
-* A alteração que o pesquisador deliberadamente faz em um experimento é denominada ****manipulação experimental****. Manipulações experimentais são ****usadas para detectar relações entre diferentes variáveis**** (Staub, 2011 apud Feldman, 2015).
-* A ****realização de um experimento**** envolve **várias etapas**, mas o processo geralmente se **inicia** com o **desenvolvimento de uma ou mais hipóteses** a serem testadas pelo experimento.
+* Em um experimento, portanto, as <amarelo>condições</amarelo> são **criadas** e **controladas** pelo pesquisador, que deliberadamente faz uma alteração nessas condições a fim de observar os efeitos daquela mudança.
+* A alteração que o pesquisador deliberadamente faz em um experimento é denominada <amarelo>manipulação experimental</amarelo>. Manipulações experimentais são <amarelo>usadas para detectar relações entre diferentes variáveis</amarelo> (Staub, 2011 apud Feldman, 2015).
+* A <amarelo>realização de um experimento</amarelo> envolve **várias etapas**, mas o processo geralmente se **inicia** com o **desenvolvimento de uma ou mais hipóteses** a serem testadas pelo experimento.
 	* Por exemplo, **Latané** e **Darley**, ao testar sua **teoria** acerca da **difusão da responsabilidade no comportamento de espectadores**, elaboraram a seguinte hipótese: quanto <u>maior</u> for o número de pessoas que testemunham uma situação de emergência, <u>menor</u> será a probabilidade de que alguma delas ajude a vítima. 
-	* Eles então ****criaram um experimento**** para testar essa hipótese.
-		* O **primeiro passo** foi formular uma ****definição operacional da hipótese****, conceitualizando-a de um modo que ela pudesse ser testada. 
-		* Latané e Darley tiveram de levar em conta o ****princípio fundamental da pesquisa experimental**** mencionado anteriormente: os experimentadores **devem manipular ao menos uma variável a fim de observar os efeitos da manipulação em outra variável**, enquanto outros fatores na situação são mantidos constantes. 
-		* Entretanto, ****a manipulação não pode ser vista isoladamente****; para que uma relação de causa e efeito seja estabelecida, os efeitos da manipulação devem ser comparados com os efeitos de nenhuma manipulação ou de outro tipo de manipulação.
+	* Eles então <amarelo>criaram um experimento</amarelo> para testar essa hipótese.
+		* O **primeiro passo** foi formular uma <amarelo>definição operacional da hipótese</amarelo>, conceitualizando-a de um modo que ela pudesse ser testada. 
+		* Latané e Darley tiveram de levar em conta o <amarelo>princípio fundamental da pesquisa experimental</amarelo> mencionado anteriormente: os experimentadores **devem manipular ao menos uma variável a fim de observar os efeitos da manipulação em outra variável**, enquanto outros fatores na situação são mantidos constantes. 
+		* Entretanto, <amarelo>a manipulação não pode ser vista isoladamente</amarelo>; para que uma relação de causa e efeito seja estabelecida, os efeitos da manipulação devem ser comparados com os efeitos de nenhuma manipulação ou de outro tipo de manipulação.
 
 ### Grupos experimentais e grupos-controle
 
 * A pesquisa experimental exige, portanto, que as respostas de ao menos dois grupos sejam comparadas.
-* ****Um grupo**** receberá um tratamento especial – a manipulação implementada pelo experimentador – e ****outro grupo**** receberá um tratamento diferente ou nenhum tratamento.
-* Qualquer grupo que recebe um tratamento é denominado ****grupo experimental****
-* Um grupo que não recebe tratamento é denominado ****grupo-controle****
+* <amarelo>Um grupo</amarelo> receberá um tratamento especial – a manipulação implementada pelo experimentador – e <amarelo>outro grupo</amarelo> receberá um tratamento diferente ou nenhum tratamento.
+* Qualquer grupo que recebe um tratamento é denominado </amarelo>grupo experimental</amarelo>
+* Um grupo que não recebe tratamento é denominado <amarelo>grupo-controle</amarelo>
 * Em alguns experimentos, existem vários grupos experimentais e de controle, cada um dos quais comparado com outro grupo.
-* **Empregando** **grupos experimentais** e de **controle** em um experimento, os pesquisadores ****são capazes de descartar**** a **possibilidade de que alguma outra variável que não a manipulação experimental tenha produzido os resultados observados no experimento**.
-* Sem um grupo-controle, ****não poderíamos ter certeza**** de que alguma outra variável, como, por exemplo, a temperatura no momento da execução do experimento, a cor de cabelo do experimentador ou mesmo a mera passagem do tempo, não estava causando as mudanças observadas.
+* **Empregando** **grupos experimentais** e de **controle** em um experimento, os pesquisadores <amarelo>são capazes de descartar<amarelo> a **possibilidade de que alguma outra variável que não a manipulação experimental tenha produzido os resultados observados no experimento**.
+* Sem um grupo-controle, <amarelo>não poderíamos ter certeza<amarelo> de que alguma outra variável, como, por exemplo, a temperatura no momento da execução do experimento, a cor de cabelo do experimentador ou mesmo a mera passagem do tempo, não estava causando as mudanças observadas.
 	* Por exemplo:
 		* Considere um pesquisador de medicina que acredita que inventou um medicamento que cura o resfriado. 
 		* Para testar sua alegação, ele administra o remédio um dia a um grupo de 20 pessoas que estão resfriadas e descobre que 10 dias depois todas elas estão curadas.
 		* Eureca? Mais devagar. Um observador que considere esse estudo falho poderia argumentar sensatamente que as pessoas teriam melhorado mesmo sem o medicamento.
 		* O que o pesquisador evidentemente precisava era de um grupo-controle formado por pessoas resfriadas que não recebem o remédio e cuja saúde também é verificada 10 dias depois.
-* Somente quando existe uma diferença significativa entre grupos experimental e de controle é que a eficácia do remédio pode ser avaliada. ****Ao usar grupos-controle****, então, os pesquisadores podem isolar causas específicas para seus achados – e extrair inferências de causa e efeito.
+* Somente quando existe uma diferença significativa entre grupos experimental e de controle é que a eficácia do remédio pode ser avaliada. <amarelo>Ao usar grupos-controle</amarelo>, então, os pesquisadores podem isolar causas específicas para seus achados – e extrair inferências de causa e efeito.
 * Voltando ao experimento de Latané e Darley:
 	* Vemos que os pesquisadores recisavam traduzir sua hipótese para algo que pudesse ser testado. 
 	* Para fazer isso, decidiram criar uma falsa situação de emergência que pareceria requerer a ajuda de um espectador. 
 	* Como manipulação experimental, optaram por **variar o número de espectadores presentes**. 
 	* Eles poderiam ter usado apenas **um grupo experimental**, por exemplo, de duas pessoas presentes, e **um grupo-controle** com apenas uma pessoa presente para fins de comparação. 
-	* Em vez disso, optaram por um procedimento mais complexo envolvendo a **criação de grupos de três tamanhos** – compostos por **duas**, **três** e **seis** pessoas – ****que poderiam ser comparados um com o outro****.
+	* Em vez disso, optaram por um procedimento mais complexo envolvendo a **criação de grupos de três tamanhos** – compostos por **duas**, **três** e **seis** pessoas – <amarelo>que poderiam ser comparados um com o outro</amarelo>.
 
 ### Variáveis Independentes e Dependentes
 
 * O projeto experimental de Latané e Darley agora incluía uma definição experimental do que é chamado de variável independente.
-* ****A variável independente**** é a condição que é manipulada por um experimentador.
+* <amarelo>A variável independente</amarelo> é a condição que é manipulada por um experimentador.
 	* Você pode pensar a variável independente como sendo independente das ações daqueles que participam de um experimento; ela é controlada pelo experimentador.
 	* No caso do experimento de Latané e Darley, a variável independente era o número de pessoas presentes, que foi manipulado pelos experimentadores.
 * O próximo passo era decidir como eles determinariam o efeito que o número variável de espectadores tinha no comportamento das pessoas no experimento.
-* ****Fundamental em todo experimento é a VARIÁVEL DEPENDENTE****, aquela que é medida e que se espera que mude em função das alterações provocadas pelo experimentador manipulando a **variável independente**. 
-* ****A variável dependente**** é dependente das ações dos participantes ou sujeitos – as pessoas que participam de um experimento. 
+* <amarelo>Fundamental em todo experimento é a VARIÁVEL DEPENDENTE<amarelo>, aquela que é medida e que se espera que mude em função das alterações provocadas pelo experimentador manipulando a **variável independente**. 
+* <amarelo>A variável dependente<amarelo> é dependente das ações dos participantes ou sujeitos – as pessoas que participam de um experimento. 
 	* Latané e Darley tinham várias escolhas possíveis para sua medida dependente. 
 	* Uma poderia ter sido uma simples verificação (sim/não) do comportamento de ajuda dos participantes.
 	* Contudo, os investigadores também queriam uma análise mais precisa do comportamento de ajuda.
 	* Consequentemente, também mediram a quantidade de tempo que levava para um participante prestar ajuda. Latané e Darley agora tinham todos os componentes necessários de um experimento.
-* ****A variável independente****, manipulada por eles, era o **número de espectadores presentes** em uma situação de emergência.
-* ****A variável dependente**** era verificar se **os espectadores em cada um dos grupos prestavam ajuda** e a **quantidade de tempo** que eles levavam para isso.
+* <amarelo>A variável independente</amarelo>, manipulada por eles, era o **número de espectadores presentes** em uma situação de emergência.
+* <amarelo>A variável dependente</amarelo> era verificar se **os espectadores em cada um dos grupos prestavam ajuda** e a **quantidade de tempo** que eles levavam para isso.
 * Consequentemente, como todos os experimentos, esse teve tanto uma variável independente
 como uma variável dependente.
 * **Todos os verdadeiros experimentos em psicologia** **encaixam-se nesse modelo simples**.

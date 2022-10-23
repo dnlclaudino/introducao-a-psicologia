@@ -1,5 +1,8 @@
+book_filename: "Meu-Bookdown-da-Disciplina-Introducao-a-Psicologia"
 delete_merged_file: true
 output_dir: "docs"
 language:
   ui:
     chapter_name: "Capítulo "
+  label:
+    fig: "Figura "
