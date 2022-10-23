@@ -2,16 +2,19 @@
 title: "Introdução à Psicologia"
 author: "Daniel Claudino"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+output: pdf_document
 documentclass: book
-bibliography: ["referencias.bib", "packages.bib"]
-# url: your book url like https://bookdown.org/yihui/bookdown
-cover-image: figuras/capa-livro.png
-description: |
-  Neste material, estão contidos os resumos de capítulos de livros, slides, notas de aula, apresentações, exercício respondidos em sala, atividades de revisão e questionários para as provas, além de outros materiais elaborados durante  da disciplina NOME-DA-DISCIPLINA.
+bibliography:
+- referencias.bib
+- packages.bib
+cover-image: "figuras/capa-livro.png"
+description: "Neste material, estão contidos os resumos de capítulos de livros, slides,
+  notas de aula, apresentações, exercício respondidos em sala, atividades de revisão
+  e questionários para as provas, além de outros materiais elaborados durante  da
+  disciplina NOME-DA-DISCIPLINA.\n"
 link-citations: yes
 lang: "pt-BR"
-#github-repo: rstudio/bookdown-demo
+site: bookdown::bookdown_site
 ---
 
 # Apresentação da Disciplina
